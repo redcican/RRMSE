@@ -221,12 +221,12 @@ def optimize_advanced_learners(X_train, y_train):
 def main():
     # Load datasets
     datasets = {
-        'abalone': pd.read_csv('dataset/abalone.csv'),
-        'Airfoil': pd.read_csv('dataset/Airfoil.csv'),
-        'car': pd.read_csv('dataset/car.csv'),
-        'diamonds': pd.read_csv('dataset/diamonds.csv'),
-        'Elongation': pd.read_csv('dataset/Elongation.csv'),
-        'smart_grid__stability': pd.read_csv('dataset/smart_grid__stability.csv')
+        'abalone': pd.read_csv('data/abalone.csv'),
+        'Airfoil': pd.read_csv('data/Airfoil.csv'),
+        'car': pd.read_csv('data/car.csv'),
+        'diamonds': pd.read_csv('data/diamonds.csv'),
+        'Elongation': pd.read_csv('data/Elongation.csv'),
+        'smart_grid__stability': pd.read_csv('data/smart_grid__stability.csv')
     }
     
     results = {}
